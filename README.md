@@ -29,14 +29,10 @@
 3. Change train, val, test path by: train/images, val: val/images, test: test/images
 4. Run train.py
 
-## Set up for DataBase
-1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
-2. Generate a private key in Firebase
-3. Rename it to serviceAccountKey.json
-4. Copy this file to Project
-5. Change cred = credentials.Certificate(path to serviceAccountKey.json location) in main.py
-6. Change url database, storageBucket in firebase_admin.initialize_app(...)
+## Prepare Model
+1. Copy the best.pt file in the runs/detect/train/weights directory to the models directory
+2. Rename file best.pt (for example: n_version_1)
+3. Change path to model in main.py file [model = YOLO("../models/path_to_n_version_1.pt")]
 
 ## Run Application
 1. Run file main.py to start application
-2. Run the files AddDatatoDatabase.py and Encode Generator.py respectively to upload new data to the database
