@@ -3,7 +3,7 @@
 ## Set up for Python
 1. Install Python or run it on virtual env (version 3.8) : ([Download](https://www.python.org))
 
-2. Install all Python packages in file "Reference.txt"
+2. Install all Python packages in file "Requirement.txt"
 
 
 ## Set up C compiler for Desktop App:
