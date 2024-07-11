@@ -15,10 +15,10 @@
 
 
 ## Collect Data
-To Collect Real Face Data: change classID to 0
-To Collect Fake Face Data: change classID to 1
-Run dataCollection.py
-Copy all the data collected in the real and fake folders with a balanced ratio into the 'All' folder
+1. To Collect Real Face Data: change classID to 0
+2. To Collect Fake Face Data: change classID to 1
+3. Run dataCollection.py
+4. Copy all the data collected in the real and fake folders with a balanced ratio into the 'All' folder
 
 ## Split Data
 
