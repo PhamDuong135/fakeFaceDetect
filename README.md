@@ -21,7 +21,7 @@
 4. Copy all the data collected in the real and fake folders with a balanced ratio into 'All' folder
 
 ## Split Data
-
+1. Run SplitData.py to split data for model training
 
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
