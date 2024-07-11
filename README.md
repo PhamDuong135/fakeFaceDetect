@@ -10,6 +10,11 @@
 1. Install Visual Studio Community Ver
 2. Select Desktop development with C++ in Visual Studio Installer
 
+## Collect Data
+To Collect Real Face Data: change classID to 0
+To Collect Fake Face Data: change classID to 1
+Run dataCollection.py
+
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
 2. Generate a private key in Firebase
