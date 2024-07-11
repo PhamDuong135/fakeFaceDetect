@@ -23,6 +23,12 @@
 ## Split Data
 1. Run SplitData.py to split data for model training
 
+## Model Training
+1. Copy and rename file data.yaml in SplitData folder to dataOffline.yaml
+2. Change the path in the dataOffline.yaml file to the absolute path of the dataOffline.yaml file
+3. Change train, val, test path by: train/images, val: val/images, test: test/images
+4. Run train.py
+
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
 2. Generate a private key in Firebase
