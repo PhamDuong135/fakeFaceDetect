@@ -25,7 +25,7 @@
 
 ## Model Training
 1. Copy and rename file data.yaml in SplitData folder to dataOffline.yaml
-2. Change the path in the dataOffline.yaml file to the absolute path of the dataOffline.yaml file
+2. Change the path in the dataOffline.yaml file to the absolute path of the SplitData folder
 3. Change train, val, test path by: train/images, val: val/images, test: test/images
 4. Run train.py
 
