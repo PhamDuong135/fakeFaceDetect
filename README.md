@@ -12,6 +12,7 @@
 
 ## Create Directory
 1. Create a Dataset folder containing All, DataCollect, Fake, Real and SplitData subfolders to store data
+![Dataset_folder_tree](https://github.com/user-attachments/assets/35c96d2e-ab3e-427c-bd64-2139aea934e5)
 
 
 ## Collect Data
