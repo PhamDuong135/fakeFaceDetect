@@ -23,6 +23,8 @@
 
 ## Split Data
 1. Run SplitData.py to split data for model training
+![split_data_folder_tree](https://github.com/user-attachments/assets/6b8bdefb-77f7-4385-8492-199f733ce115)
+
 
 ## Model Training
 1. Copy and rename file data.yaml in SplitData folder to dataOffline.yaml
